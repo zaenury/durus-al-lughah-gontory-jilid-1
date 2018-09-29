@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/tableLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/background2"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="20dp"
+        android:shrinkColumns="*"
+        android:stretchColumns="*"
+        tools:context="com.unida.zheezhee.tamrinlughohgontory.Keterangan122">
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="الْعَدَدُ لِلْمُذَكَّرِ ( 11 – 20 )"
+                android:textColor="#000"
+                android:textSize="30dp"
+                android:textStyle="bold"></TextView>
+        </TableRow>
+
+
+        <ImageView
+            android:id="@+id/image_view"
+            android:layout_width="500dp"
+            android:layout_height="500dp"
+            android:layout_below="@id/textView"
+            android:src="@drawable/sebelasduapuluh" />
+
+        <TableRow
+            android:id="@+id/tableRow4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal">
+
+            <Button
+                android:id="@+id/button1menuawal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:text="KOSAKATA" />
+        </TableRow>
+    </TableLayout>
+</ScrollView>

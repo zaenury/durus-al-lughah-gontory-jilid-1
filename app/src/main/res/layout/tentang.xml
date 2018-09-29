@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#075E54"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.unida.zheezhee.tamrinlughohgontory.Tentang">
+
+    <TextView
+        android:id="@+id/durusullughoh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="DURUSULLUGHAH AL-ARABIYYAH"
+        android:textColor="#FFFFFF"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/welcome3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/durusullughoh"
+        android:layout_marginTop="30dp"
+        android:text="         Aplikasi ini mengambil konten dari buku Durus Al-Lughah karya KH. Imam Zarkasyi (Trimurti): Salah satu pendiri Pondok Modern Darussalam Gontor "
+        android:textColor="#FFFFFF"
+        android:textSize="13dp" />
+
+    <TextView
+        android:id="@+id/welcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/welcome3"
+        android:layout_marginTop="20dp"
+        android:text="          DURUSULLUGHAH AL-ARABIYAH adalah buku pelajaran Bahasa Arab yang digunakan oleh santri KMI GONTOR yang mengutamakan metode langsung (Direct Method) dalam tahap-tahap permulaanya, dan menggunakan metode-metode lain dalam tahap berikutnya. Aplikasi jilid 1 ini adalah pelajaran permulaan yang merupakan dasar dari penguasaan Bahasa Arab dan telah dapat dipergunakan untuk praktek berbicara sehari-hari."
+        android:textColor="#FFFFFF"
+        android:textSize="13dp" />
+
+    <TextView
+        android:id="@+id/welcome2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/welcome"
+        android:layout_marginTop="20dp"
+        android:text="         Namun pada aplikasi yang dibuat ini hanya bersifat membantu memberikan alternatif lain sebagai media pembelajaran yang tidak bisa menggantikan peran buku, kelas dan ustadz yang sesungguhnya."
+        android:textColor="#FFFFFF"
+        android:textSize="13dp" />
+
+</RelativeLayout>

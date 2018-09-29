@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/background2"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        tools:context="com.unida.zheezhee.tamrinlughohgontory.Percakapan5">
+
+        <TextView
+            android:layout_below="@+id/text1"
+            android:id="@+id/text2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="الْمُحَادَثَةُ"
+            android:textColor="#000"
+            android:textSize="30dp"/>
+
+        <TextView
+            android:layout_below="@+id/text2"
+            android:id="@+id/textkosong0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:textColor="#000"
+            android:textSize="20dp"/>
+
+        <TextView
+            android:id="@+id/text5"
+            android:layout_width="wrap_content"
+            android:layout_height="38dp"
+            android:text="أَيْنَ الْبِئْرُ؟ هِيَ وَرَاءَ الْبَيْتِ"
+            android:textColor="#000"
+            android:textSize="25dp"
+            android:layout_below="@+id/textkosong0"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <TextView
+            android:id="@+id/text6"
+            android:layout_width="wrap_content"
+            android:layout_height="38dp"
+            android:text="مَنْ فِي الدِّيْوَانِ؟ فِيْهِ أُسْتَاذٌ"
+            android:textColor="#000"
+            android:textSize="25dp"
+            android:layout_below="@+id/text5"
+            android:layout_alignParentRight="true"/>
+
+        <TextView
+            android:id="@+id/text7"
+            android:layout_width="wrap_content"
+            android:layout_height="36dp"
+            android:text="مَاذَا عَلَى الْحَائِطِ؟ عَلَيْهِ رُزْنَامَةٌ"
+            android:textColor="#000"
+            android:textSize="25dp"
+            android:layout_below="@+id/text6"
+            android:layout_alignParentRight="true"/>
+
+        <TextView
+            android:id="@+id/text71"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="#000"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_below="@+id/text7"
+            android:layout_alignParentRight="true"/>
+
+        <TextView
+            android:id="@+id/text9"
+            android:layout_width="wrap_content"
+            android:layout_height="42dp"
+            android:text="مَاذَا عَلَى السَّرِيْرِ؟ عَلَيْهِ مِخَدَّةٌ"
+            android:textColor="#000"
+            android:textSize="25dp"
+            android:layout_below="@+id/text71"
+            android:layout_alignParentRight="true"/>
+
+        <TextView
+            android:id="@+id/text10"
+            android:layout_width="wrap_content"
+            android:layout_height="38dp"
+            android:text="أَيْنَ الْمِنْبَرُ؟ هُوَ فِي الْمَسْجِدِ"
+            android:textColor="#000"
+            android:textSize="25dp"
+            android:layout_below="@+id/text9"
+            android:layout_alignParentRight="true"/>
+
+        <TextView
+            android:id="@+id/text101"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:textSize="20dp"
+            android:layout_below="@+id/text10"
+            android:layout_alignParentRight="true"/>
+
+        <TextView
+            android:id="@+id/text11"
+            android:layout_width="wrap_content"
+            android:layout_height="36dp"
+            android:text="مَاذَا عَلَى الْمِنْضَدَةِ؟ عَلَيْهَا كِتَابٌ"
+            android:textColor="#000"
+            android:textSize="25dp"
+            android:layout_below="@+id/text101"
+            android:layout_alignParentRight="true"/>
+
+        <TextView
+            android:id="@+id/text12"
+            android:layout_width="wrap_content"
+            android:layout_height="39dp"
+            android:text="أَيْنَ الْمِمْسَحَةُ؟ هِيَ وَرَاءَ الْبَابِ"
+            android:textColor="#000"
+            android:textSize="25dp"
+            android:layout_below="@+id/text11"
+            android:layout_alignParentRight="true"/>
+
+        <TextView
+            android:id="@+id/text13"
+            android:layout_width="wrap_content"
+            android:layout_height="38dp"
+            android:text="أَيْنَ التِّلْمِيْذُ؟ هُوَ أَمَامَ الْأُسْتَاذِ"
+            android:textColor="#000"
+            android:textSize="25dp"
+            android:layout_below="@+id/text12"
+            android:layout_alignParentRight="true"/>
+
+        <Button
+            android:id="@+id/button1menuawal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:layout_below="@+id/text13"
+            android:text="MENU AWAL" />
+    </RelativeLayout>
+</ScrollView>

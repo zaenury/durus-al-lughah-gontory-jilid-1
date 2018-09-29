@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/tableLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/background2"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="15dp"
+    android:paddingRight="15dp"
+    android:paddingTop="20dp"
+    android:shrinkColumns="*"
+    android:stretchColumns="*"
+    tools:context="com.unida.zheezhee.tamrinlughohgontory.Bab3">
+
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="الدَّرْسُ الرَّابِعُ"
+            android:textColor="#000"
+            android:textSize="30dp"></TextView>
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp"
+            android:text=""
+            android:textSize="16dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:paddingRight="20dp"
+            android:text=""
+            android:textSize="24dp"
+            android:textStyle="bold" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/artitextView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:text="Sekolah"
+            android:textColor="#000"
+            android:textSize="16dp" />
+
+        <Button
+            android:gravity="right"
+            android:paddingRight="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="36dp"
+            android:text="مَدْرَسَةٌ"
+            android:id="@+id/btnPLAY"
+            android:layout_column="0"
+            android:background="#00ffffff"
+            android:textSize="25dp"/>
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/artitextView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:text="Kelas"
+            android:textColor="#000"
+            android:textSize="16dp" />
+
+        <Button
+            android:gravity="right"
+            android:paddingRight="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="36dp"
+            android:text="فَصْلٌ"
+            android:id="@+id/btnPLAY2"
+            android:layout_column="0"
+            android:background="#00ffffff"
+            android:textSize="25dp"/>
+            </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/artitextView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:text="Keranjang"
+            android:textColor="#000"
+            android:textSize="16dp" />
+
+        <Button
+            android:gravity="right"
+            android:paddingRight="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="36dp"
+            android:text="سَلَّةٌ"
+            android:id="@+id/btnPLAY3"
+            android:layout_column="0"
+            android:background="#00ffffff"
+            android:textSize="25dp"/>
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/artitextView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:text="Dinding"
+            android:textColor="#000"
+            android:textSize="16dp" />
+
+        <Button
+            android:gravity="right"
+            android:paddingRight="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:text="جِدَارٌ (حَائِطٌ)  "
+            android:id="@+id/btnPLAY4"
+            android:layout_column="0"
+            android:background="#00ffffff"
+            android:textSize="25dp"/>
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/artitextView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:text="Atap"
+            android:textColor="#000"
+            android:textSize="16dp" />
+
+        <Button
+            android:gravity="right"
+            android:paddingRight="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="36dp"
+            android:text="سَقْفٌ"
+            android:id="@+id/btnPLAY5"
+            android:layout_column="0"
+            android:background="#00ffffff"
+            android:textSize="25dp"/>
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/artitextView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:text="Bumi/tanah"
+            android:textColor="#000"
+            android:textSize="16dp" />
+
+        <Button
+            android:gravity="right"
+            android:paddingRight="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="36dp"
+            android:text="أَرْضٌ"
+            android:id="@+id/btnPLAY6"
+            android:layout_column="0"
+            android:background="#00ffffff"
+            android:textSize="25dp"/>
+            </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/artitextView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:text="Majalah"
+            android:textColor="#000"
+            android:textSize="16dp" />
+
+        <Button
+            android:gravity="right"
+            android:paddingRight="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="36dp"
+            android:text="مَجَلَّةٌ"
+            android:id="@+id/btnPLAY7"
+            android:layout_column="0"
+            android:background="#00ffffff"
+            android:textSize="25dp"/>
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/artitextView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:text="Masjid"
+            android:textColor="#000"
+            android:textSize="16dp" />
+
+        <Button
+            android:gravity="right"
+            android:paddingRight="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="39dp"
+            android:text="مَسْجِدٌ"
+            android:id="@+id/btnPLAY8"
+            android:layout_column="0"
+            android:background="#00ffffff"
+            android:textSize="25dp"/>
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/artitextView81"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:text="Halaman"
+            android:textColor="#000"
+            android:textSize="16dp" />
+
+        <Button
+            android:gravity="right"
+            android:paddingRight="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="36dp"
+            android:text="فِنَاءٌ"
+            android:id="@+id/btnPLAY9"
+            android:layout_column="0"
+            android:background="#00ffffff"
+            android:textSize="25dp"/>
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/artitextView82"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:text="Keset"
+            android:textColor="#000"
+            android:textSize="16dp" />
+
+        <Button
+            android:gravity="right"
+            android:paddingRight="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="36dp"
+            android:text="مِمْسَحَةٌ"
+            android:id="@+id/btnPLAY10"
+            android:layout_column="0"
+            android:background="#00ffffff"
+            android:textSize="25dp"/>
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/artitextView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:text="Kalender"
+            android:textColor="#000"
+            android:textSize="16dp" />
+
+        <Button
+            android:gravity="right"
+            android:paddingRight="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:text="تَقْوِيْمٌ"
+            android:id="@+id/btnPLAY11"
+            android:layout_column="0"
+            android:background="#00ffffff"
+            android:textSize="25dp"/>
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/artitextView10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:text="Halaman"
+            android:textColor="#000"
+            android:textSize="16dp" />
+
+        <Button
+            android:gravity="right"
+            android:paddingRight="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="36dp"
+            android:text="سَاحَةٌ"
+            android:id="@+id/btnPLAY12"
+            android:layout_column="0"
+            android:background="#00ffffff"
+            android:textSize="25dp"/>
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+
+        <Button
+            android:id="@+id/button4kalimat"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="CONTOH KALIMAT" />
+
+    </TableRow>
+
+</TableLayout>
+    </ScrollView>

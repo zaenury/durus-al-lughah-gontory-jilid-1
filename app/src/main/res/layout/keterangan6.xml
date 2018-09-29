@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/tableLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/background2"
+        android:shrinkColumns="*"
+        android:stretchColumns="*"
+        tools:context="com.unida.zheezhee.tamrinlughohgontory.Keterangan6">
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:gravity="center"
+                android:text="الضَّمِيْرُ ١"
+                android:textColor="#000"
+                android:textSize="30dp"></TextView>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:text="- Pengguna mampu menggunakan dhamir dan menyatakan kepemilikan dalam kalimat"
+                android:textColor="#000"
+                android:textSize="16dp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:text="- Pengguna mampu menyebutkan kosakata baru dan menggunakannya dengan ungkapan kepemilikan"
+                android:textColor="#000"
+                android:textSize="16dp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:text="- Dhamir - dhamir tersebut"
+                android:textColor="#000"
+                android:textSize="16dp" />
+        </TableRow>
+        <ImageView
+            android:id="@+id/image_view"
+            android:layout_width="400dp"
+            android:layout_height="320dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_below="@id/textsebelum"
+            android:src="@drawable/munfasil" />
+
+        <TableRow
+            android:id="@+id/tableRow4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal">
+
+            <Button
+                android:id="@+id/button1menuawal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:text="KOSAKATA" />
+        </TableRow>
+    </TableLayout>
+</ScrollView>

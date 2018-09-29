@@ -1,0 +1,408 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.unida.zheezhee.tamrinlughohgontory"
+    android:versionCode="1"
+    android:versionName="1.0">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="   DURUS AL-LUGHAH"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="com.unida.zheezhee.tamrinlughohgontory.Splashscreen"
+            android:label="@string/app_name"
+            android:noHistory="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/Splashscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.unida.zheezhee.tamrinlughohgontory.Kalimat1"
+            android:parentActivityName="com.unida.zheezhee.tamrinlughohgontory.Bab1">
+            <meta-data
+                android:name="android:support.PARENT_ACTIVITY"
+                android:value=".Kalimat1" />
+        </activity>
+        <activity
+            android:name="com.unida.zheezhee.tamrinlughohgontory.Kalimat2"
+            android:parentActivityName="com.unida.zheezhee.tamrinlughohgontory.Bab2">
+            <meta-data
+                android:name="android:support.PARENT_ACTIVITY"
+                android:value=".Kalimat2" />
+        </activity>
+        <activity
+            android:name="com.unida.zheezhee.tamrinlughohgontory.Kalimat3"
+            android:parentActivityName="com.unida.zheezhee.tamrinlughohgontory.Bab3">
+            <meta-data
+                android:name="android:support.PARENT_ACTIVITY"
+                android:value=".Kalimat3" />
+        </activity>
+        <activity
+            android:name="com.unida.zheezhee.tamrinlughohgontory.Kalimat4"
+            android:parentActivityName="com.unida.zheezhee.tamrinlughohgontory.Bab4">
+            <meta-data
+                android:name="android:support.PARENT_ACTIVITY"
+                android:value=".Kalimat4" />
+        </activity>
+        <activity
+            android:name="com.unida.zheezhee.tamrinlughohgontory.Kalimat5"
+            android:parentActivityName="com.unida.zheezhee.tamrinlughohgontory.Bab5">
+            <meta-data
+                android:name="android:support.PARENT_ACTIVITY"
+                android:value=".Kalimat5" />
+        </activity>
+        <activity
+            android:name="com.unida.zheezhee.tamrinlughohgontory.Kalimat6"
+            android:parentActivityName="com.unida.zheezhee.tamrinlughohgontory.Bab6">
+            <meta-data
+                android:name="android:support.PARENT_ACTIVITY"
+                android:value=".Kalimat6" />
+        </activity>
+        <activity
+            android:name="com.unida.zheezhee.tamrinlughohgontory.Kalimat7"
+            android:parentActivityName="com.unida.zheezhee.tamrinlughohgontory.Bab7">
+            <meta-data
+                android:name="android:support.PARENT_ACTIVITY"
+                android:value=".Kalimat7" />
+        </activity>
+        <activity
+            android:name="com.unida.zheezhee.tamrinlughohgontory.Kalimat8"
+            android:parentActivityName="com.unida.zheezhee.tamrinlughohgontory.Bab8">
+            <meta-data
+                android:name="android:support.PARENT_ACTIVITY"
+                android:value=".Kalimat8" />
+        </activity>
+        <activity
+            android:name="com.unida.zheezhee.tamrinlughohgontory.Kalimat9"
+            android:parentActivityName="com.unida.zheezhee.tamrinlughohgontory.Bab9">
+            <meta-data
+                android:name="android:support.PARENT_ACTIVITY"
+                android:value=".Kalimat9" />
+        </activity>
+        <activity
+            android:name="com.unida.zheezhee.tamrinlughohgontory.Kalimat10"
+            android:parentActivityName="com.unida.zheezhee.tamrinlughohgontory.Bab10">
+            <meta-data
+                android:name="android:support.PARENT_ACTIVITY"
+                android:value=".Kalimat10" />
+        </activity>
+        <activity
+            android:name="com.unida.zheezhee.tamrinlughohgontory.Kalimat11"
+            android:parentActivityName="com.unida.zheezhee.tamrinlughohgontory.Bab11">
+            <meta-data
+                android:name="android:support.PARENT_ACTIVITY"
+                android:value=".Kalimat11" />
+        </activity>
+        <activity
+            android:name="com.unida.zheezhee.tamrinlughohgontory.Kalimat12"
+            android:parentActivityName="com.unida.zheezhee.tamrinlughohgontory.Bab12">
+            <meta-data
+                android:name="android:support.PARENT_ACTIVITY"
+                android:value=".Kalimat12" />
+        </activity>
+
+        <activity
+            android:name="com.unida.zheezhee.tamrinlughohgontory.Keterangan1"
+            android:parentActivityName="com.unida.zheezhee.tamrinlughohgontory.MainActivity">
+            <meta-data
+                android:name="android:support.PARENT_ACTIVITY"
+                android:value=".Keterangan1" />
+        </activity>
+        <activity
+            android:name="com.unida.zheezhee.tamrinlughohgontory.Keterangan2"
+            android:parentActivityName="com.unida.zheezhee.tamrinlughohgontory.MainActivity">
+            <meta-data
+                android:name="android:support.PARENT_ACTIVITY"
+                android:value=".Keterangan2" />
+        </activity>
+        <activity
+            android:name="com.unida.zheezhee.tamrinlughohgontory.Keterangan3"
+            android:parentActivityName="com.unida.zheezhee.tamrinlughohgontory.MainActivity">
+            <meta-data
+                android:name="android:support.PARENT_ACTIVITY"
+                android:value=".Keterangan3" />
+        </activity>
+        <activity
+            android:name="com.unida.zheezhee.tamrinlughohgontory.Keterangan4"
+            android:parentActivityName="com.unida.zheezhee.tamrinlughohgontory.MainActivity">
+            <meta-data
+                android:name="android:support.PARENT_ACTIVITY"
+                android:value=".Keterangan4" />
+        </activity>
+        <activity
+            android:name="com.unida.zheezhee.tamrinlughohgontory.Keterangan5"
+            android:parentActivityName="com.unida.zheezhee.tamrinlughohgontory.MainActivity">
+            <meta-data
+                android:name="android:support.PARENT_ACTIVITY"
+                android:value=".Keterangan5" />
+        </activity>
+        <activity
+            android:name="com.unida.zheezhee.tamrinlughohgontory.Keterangan6"
+            android:parentActivityName="com.unida.zheezhee.tamrinlughohgontory.MainActivity">
+            <meta-data
+                android:name="android:support.PARENT_ACTIVITY"
+                android:value=".Keterangan6" />
+        </activity>
+        <activity
+            android:name="com.unida.zheezhee.tamrinlughohgontory.Keterangan7"
+            android:parentActivityName="com.unida.zheezhee.tamrinlughohgontory.MainActivity">
+            <meta-data
+                android:name="android:support.PARENT_ACTIVITY"
+                android:value=".Keterangan7" />
+        </activity>
+        <activity
+            android:name="com.unida.zheezhee.tamrinlughohgontory.Keterangan8"
+            android:parentActivityName="com.unida.zheezhee.tamrinlughohgontory.MainActivity">
+            <meta-data
+                android:name="android:support.PARENT_ACTIVITY"
+                android:value=".Keterangan8" />
+        </activity>
+        <activity
+            android:name="com.unida.zheezhee.tamrinlughohgontory.Keterangan82"
+            android:parentActivityName="com.unida.zheezhee.tamrinlughohgontory.Keterangan8">
+            <meta-data
+                android:name="android:support.PARENT_ACTIVITY"
+                android:value=".Keterangan82" />
+        </activity>
+        <activity
+            android:name="com.unida.zheezhee.tamrinlughohgontory.Keterangan9"
+            android:parentActivityName="com.unida.zheezhee.tamrinlughohgontory.MainActivity">
+            <meta-data
+                android:name="android:support.PARENT_ACTIVITY"
+                android:value=".Keterangan9" />
+        </activity>
+        <activity
+            android:name="com.unida.zheezhee.tamrinlughohgontory.Keterangan92"
+            android:parentActivityName="com.unida.zheezhee.tamrinlughohgontory.Keterangan9">
+            <meta-data
+                android:name="android:support.PARENT_ACTIVITY"
+                android:value=".Keterangan92" />
+        </activity>
+        <activity
+            android:name="com.unida.zheezhee.tamrinlughohgontory.Keterangan10"
+            android:parentActivityName="com.unida.zheezhee.tamrinlughohgontory.MainActivity">
+            <meta-data
+                android:name="android:support.PARENT_ACTIVITY"
+                android:value=".Keterangan10" />
+        </activity>
+        <activity
+            android:name="com.unida.zheezhee.tamrinlughohgontory.Keterangan102"
+            android:parentActivityName="com.unida.zheezhee.tamrinlughohgontory.Keterangan10">
+            <meta-data
+                android:name="android:support.PARENT_ACTIVITY"
+                android:value=".Keterangan102" />
+        </activity>
+        <activity
+            android:name="com.unida.zheezhee.tamrinlughohgontory.Keterangan11"
+            android:parentActivityName="com.unida.zheezhee.tamrinlughohgontory.MainActivity">
+            <meta-data
+                android:name="android:support.PARENT_ACTIVITY"
+                android:value=".Keterangan11" />
+        </activity>
+        <activity
+            android:name="com.unida.zheezhee.tamrinlughohgontory.Keterangan12"
+            android:parentActivityName="com.unida.zheezhee.tamrinlughohgontory.MainActivity">
+            <meta-data
+                android:name="android:support.PARENT_ACTIVITY"
+                android:value=".Keterangan12" />
+        </activity>
+        <activity
+            android:name="com.unida.zheezhee.tamrinlughohgontory.Keterangan122"
+            android:parentActivityName="com.unida.zheezhee.tamrinlughohgontory.Keterangan12">
+            <meta-data
+                android:name="android:support.PARENT_ACTIVITY"
+                android:value=".Keterangan122" />
+        </activity>
+        <activity
+            android:name="com.unida.zheezhee.tamrinlughohgontory.Bab1"
+            android:parentActivityName="com.unida.zheezhee.tamrinlughohgontory.Keterangan1">
+            <meta-data
+                android:name="android:support.PARENT_ACTIVITY"
+                android:value=".Bab1" />
+        </activity>
+        <activity
+            android:name="com.unida.zheezhee.tamrinlughohgontory.Bab2"
+            android:parentActivityName="com.unida.zheezhee.tamrinlughohgontory.Keterangan2">
+            <meta-data
+                android:name="android:support.PARENT_ACTIVITY"
+                android:value=".Bab2" />
+        </activity>
+        <activity
+            android:name="com.unida.zheezhee.tamrinlughohgontory.Bab3"
+            android:parentActivityName="com.unida.zheezhee.tamrinlughohgontory.Keterangan3">
+            <meta-data
+                android:name="android:support.PARENT_ACTIVITY"
+                android:value=".Bab3" />
+        </activity>
+        <activity
+            android:name="com.unida.zheezhee.tamrinlughohgontory.Bab4"
+            android:parentActivityName="com.unida.zheezhee.tamrinlughohgontory.Keterangan4">
+            <meta-data
+                android:name="android:support.PARENT_ACTIVITY"
+                android:value=".Bab4" />
+        </activity>
+        <activity
+            android:name="com.unida.zheezhee.tamrinlughohgontory.Bab5"
+            android:parentActivityName="com.unida.zheezhee.tamrinlughohgontory.Keterangan5">
+            <meta-data
+                android:name="android:support.PARENT_ACTIVITY"
+                android:value=".Bab5" />
+        </activity>
+        <activity
+            android:name="com.unida.zheezhee.tamrinlughohgontory.Bab6"
+            android:parentActivityName="com.unida.zheezhee.tamrinlughohgontory.Keterangan6">
+        <meta-data
+            android:name="android:support.PARENT_ACTIVITY"
+            android:value=".Bab6" />
+        </activity>
+        <activity
+            android:name="com.unida.zheezhee.tamrinlughohgontory.Bab7"
+            android:parentActivityName="com.unida.zheezhee.tamrinlughohgontory.Keterangan7">
+            <meta-data
+                android:name="android:support.PARENT_ACTIVITY"
+                android:value=".Bab7" />
+        </activity>
+        <activity
+            android:name="com.unida.zheezhee.tamrinlughohgontory.Bab8"
+            android:parentActivityName="com.unida.zheezhee.tamrinlughohgontory.Keterangan82">
+            <meta-data
+                android:name="android:support.PARENT_ACTIVITY"
+                android:value=".Bab8" />
+        </activity>
+        <activity
+            android:name="com.unida.zheezhee.tamrinlughohgontory.Bab9"
+            android:parentActivityName="com.unida.zheezhee.tamrinlughohgontory.Keterangan92">
+            <meta-data
+                android:name="android:support.PARENT_ACTIVITY"
+                android:value=".Bab9" />
+        </activity>
+        <activity
+            android:name="com.unida.zheezhee.tamrinlughohgontory.Bab10"
+            android:parentActivityName="com.unida.zheezhee.tamrinlughohgontory.Keterangan102">
+            <meta-data
+                android:name="android:support.PARENT_ACTIVITY"
+                android:value=".Bab10" />
+        </activity>
+        <activity
+            android:name="com.unida.zheezhee.tamrinlughohgontory.Bab11"
+            android:parentActivityName="com.unida.zheezhee.tamrinlughohgontory.Keterangan11">
+            <meta-data
+                android:name="android:support.PARENT_ACTIVITY"
+                android:value=".Bab11" />
+        </activity>
+        <activity
+            android:name="com.unida.zheezhee.tamrinlughohgontory.Bab12"
+            android:parentActivityName="com.unida.zheezhee.tamrinlughohgontory.Keterangan122">
+            <meta-data
+                android:name="android:support.PARENT_ACTIVITY"
+                android:value=".Bab12" />
+        </activity>
+        <activity
+            android:name="com.unida.zheezhee.tamrinlughohgontory.Percakapan1"
+            android:parentActivityName="com.unida.zheezhee.tamrinlughohgontory.Kalimat1">
+            <meta-data
+                android:name="android:support.PARENT_ACTIVITY"
+                android:value=".Percakapan1" />
+        </activity>
+        <activity
+            android:name="com.unida.zheezhee.tamrinlughohgontory.Percakapan2"
+            android:parentActivityName="com.unida.zheezhee.tamrinlughohgontory.Kalimat2">
+            <meta-data
+                android:name="android:support.PARENT_ACTIVITY"
+                android:value=".Percakapan2" />
+        </activity>
+        <activity
+            android:name="com.unida.zheezhee.tamrinlughohgontory.Percakapan3"
+            android:parentActivityName="com.unida.zheezhee.tamrinlughohgontory.Kalimat3">
+            <meta-data
+                android:name="android:support.PARENT_ACTIVITY"
+                android:value=".Percakapan3" />
+        </activity>
+        <activity
+            android:name="com.unida.zheezhee.tamrinlughohgontory.Percakapan4"
+            android:parentActivityName="com.unida.zheezhee.tamrinlughohgontory.Kalimat4">
+            <meta-data
+                android:name="android:support.PARENT_ACTIVITY"
+                android:value=".Percakapan4" />
+        </activity>
+        <activity
+            android:name="com.unida.zheezhee.tamrinlughohgontory.Percakapan5"
+            android:parentActivityName="com.unida.zheezhee.tamrinlughohgontory.Kalimat5">
+            <meta-data
+                android:name="android:support.PARENT_ACTIVITY"
+                android:value=".Percakapan5" />
+        </activity>
+        <activity
+            android:name="com.unida.zheezhee.tamrinlughohgontory.Percakapan6"
+            android:parentActivityName="com.unida.zheezhee.tamrinlughohgontory.Kalimat6">
+            <meta-data
+                android:name="android:support.PARENT_ACTIVITY"
+                android:value=".Percakapan6" />
+        </activity>
+        <activity
+            android:name="com.unida.zheezhee.tamrinlughohgontory.Percakapan7"
+            android:parentActivityName="com.unida.zheezhee.tamrinlughohgontory.Kalimat7">
+            <meta-data
+                android:name="android:support.PARENT_ACTIVITY"
+                android:value=".Percakapan7" />
+        </activity>
+        <activity
+            android:name="com.unida.zheezhee.tamrinlughohgontory.Percakapan8"
+            android:parentActivityName="com.unida.zheezhee.tamrinlughohgontory.Kalimat8">
+            <meta-data
+                android:name="android:support.PARENT_ACTIVITY"
+                android:value=".Percakapan8" />
+        </activity>
+        <activity
+            android:name="com.unida.zheezhee.tamrinlughohgontory.Percakapan9"
+            android:parentActivityName="com.unida.zheezhee.tamrinlughohgontory.Kalimat9">
+            <meta-data
+                android:name="android:support.PARENT_ACTIVITY"
+                android:value=".Percakapan9" />
+        </activity>
+        <activity
+            android:name="com.unida.zheezhee.tamrinlughohgontory.Percakapan10"
+            android:parentActivityName="com.unida.zheezhee.tamrinlughohgontory.Kalimat10">
+            <meta-data
+                android:name="android:support.PARENT_ACTIVITY"
+                android:value=".Percakapan10" />
+        </activity>
+        <activity
+            android:name="com.unida.zheezhee.tamrinlughohgontory.Percakapan11"
+            android:parentActivityName="com.unida.zheezhee.tamrinlughohgontory.Kalimat11">
+            <meta-data
+                android:name="android:support.PARENT_ACTIVITY"
+                android:value=".Percakapan11" />
+        </activity>
+        <activity
+            android:name="com.unida.zheezhee.tamrinlughohgontory.Percakapan12"
+            android:parentActivityName="com.unida.zheezhee.tamrinlughohgontory.Kalimat12">
+            <meta-data
+                android:name="android:support.PARENT_ACTIVITY"
+                android:value=".Percakapan12" />
+        </activity>
+        <activity android:name="com.unida.zheezhee.tamrinlughohgontory.MainActivity" />
+        <activity
+            android:name="com.unida.zheezhee.tamrinlughohgontory.Tentang"
+            android:parentActivityName="com.unida.zheezhee.tamrinlughohgontory.MainActivity">
+            <meta-data
+                android:name="android:support.PARENT_ACTIVITY"
+                android:value=".Tentang" />
+        </activity>
+        <activity
+            android:name="com.unida.zheezhee.tamrinlughohgontory.Latihan"
+            android:parentActivityName="com.unida.zheezhee.tamrinlughohgontory.MainActivity">
+            <!--<meta-data
+                android:name="android:support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />-->
+        </activity>
+
+    </application>
+
+</manifest>

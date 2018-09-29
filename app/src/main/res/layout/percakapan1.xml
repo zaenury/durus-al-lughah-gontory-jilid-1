@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/tableLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:background="@drawable/background2"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="20dp"
+        android:shrinkColumns="*"
+        android:stretchColumns="*"
+        tools:context="com.unida.zheezhee.tamrinlughohgontory.Percakapan1">
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="الْمُحَادَثَةُ"
+                android:textColor="#000"
+                android:textSize="30dp"
+                android:textStyle="bold"></TextView>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="16dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:text=""
+                android:textSize="24dp"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/kata2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="هٰذَا كِتَابٌ"
+                android:textColor="#000"
+                android:textSize="25dp"/>
+
+            <TextView
+                android:id="@+id/kata1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:text="مَاهٰذَا؟"
+                android:textColor="#000"
+                android:textSize="25dp"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/kata4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ذٰلِكَ كِتَابٌ"
+                android:textColor="#000"
+                android:textSize="25dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:text=""
+                android:textColor="#000"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/kata6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="هٰذَا مَقْعَدٌ"
+                android:textColor="#000"
+                android:textSize="25dp"/>
+
+            <TextView
+                android:id="@+id/kata5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:text="مَاهٰذَا؟"
+                android:textColor="#000"
+                android:textSize="25dp"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/kata8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ذٰلِكَ مَقْعَدٌ"
+                android:textColor="#000"
+                android:textSize="25dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:text=""
+                android:textSize="20dp"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/kata10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="هٰذَا قِرْطَاسٌ"
+                android:textColor="#000"
+                android:textSize="25dp"/>
+
+            <TextView
+                android:id="@+id/kata9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:text="مَاهٰذَا؟"
+                android:textColor="#000"
+                android:textSize="25dp"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/kata12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ذٰلِكَ قِرْطَاسٌ"
+                android:textColor="#000"
+                android:textSize="25dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:text=""
+                android:textSize="20dp"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:text=""
+                android:textSize="20dp"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/kata14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="نَعَمْ, هٰذَا مَكْتَبٌ"
+                android:textColor="#000"
+                android:textSize="23dp"/>
+
+            <TextView
+                android:id="@+id/kata13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:text="أَ هٰذَا مَكْتَبٌ؟"
+                android:textColor="#000"
+                android:textSize="23dp"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/kata18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="نَعَمْ, ذٰلِكَ كُرْسِيٌّ"
+                android:textColor="#000"
+                android:textSize="23dp"/>
+
+            <TextView
+                android:id="@+id/kata17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:text="أَ هٰذَا كُرْسِيٌّ؟"
+                android:textColor="#000"
+                android:textSize="23dp"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/kata20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="نَعَمْ, هٰذَا قَلَمُ رَصَاصٍ"
+                android:textColor="#000"
+                android:textSize="20dp"/>
+
+            <TextView
+                android:id="@+id/kata19"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:text="أَ هٰذَا قَلَمُ رَصَاصٍ؟"
+                android:textColor="#000"
+                android:textSize="20dp"/>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal">
+
+            <Button
+                android:id="@+id/button1menuawal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:text="MENU AWAL" />
+
+        </TableRow>
+    </TableLayout>
+</ScrollView>
