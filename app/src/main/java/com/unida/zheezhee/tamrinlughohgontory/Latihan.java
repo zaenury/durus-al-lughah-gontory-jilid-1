@@ -4,7 +4,7 @@ package com.unida.zheezhee.tamrinlughohgontory;
  * Created by zhee-zhee on 07/12/2016.
  */
 import android.graphics.Typeface;
-import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Calendar;
