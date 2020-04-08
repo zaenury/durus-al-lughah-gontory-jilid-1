@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content">
+    android:layout_height="wrap_content"
+    tools:context="com.unida.zheezhee.tamrinlughohgontory.Keterangan10">
 
-    <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:tools="http://schemas.android.com/tools"
+    <TableLayout
         android:id="@+id/tableLayout1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@drawable/background2"
         android:shrinkColumns="*"
-        android:stretchColumns="*"
-        tools:context="com.unida.zheezhee.tamrinlughohgontory.Keterangan10">
+        android:stretchColumns="*">
 
         <TableRow
             android:id="@+id/tableRow1"
@@ -23,14 +23,14 @@
                 android:id="@+id/textView"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="16dp"
                 android:layout_marginLeft="16dp"
+                android:layout_marginTop="16dp"
                 android:layout_marginRight="16dp"
                 android:gravity="center"
                 android:text="الْجَمْعُ وَ الْمُفْرَدُ"
                 android:textColor="#000"
                 android:textSize="30dp"
-                android:textStyle="bold"></TextView>
+                android:textStyle="bold"/>
         </TableRow>
 
         <TableRow
@@ -40,8 +40,8 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="20dp"
                 android:layout_marginLeft="16dp"
+                android:layout_marginTop="20dp"
                 android:layout_marginRight="16dp"
                 android:text="- Pengguna mampu membedakan antara jama' dan mufrad"
                 android:textColor="#000"
@@ -55,8 +55,8 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="20dp"
                 android:layout_marginLeft="16dp"
+                android:layout_marginTop="20dp"
                 android:layout_marginRight="16dp"
                 android:text="- Pengguna mampu menggunakan jama' dan mufrad untuk mudzakkar dan mu'annats di dalam suatu kalimat"
                 android:textColor="#000"
@@ -71,8 +71,8 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="20dp"
                 android:layout_marginLeft="16dp"
+                android:layout_marginTop="20dp"
                 android:layout_marginRight="16dp"
                 android:text="- Pengguna mampu menjawab soal - soal angka untuk mu'annats dan mudzakkar"
                 android:textColor="#000"
@@ -89,8 +89,8 @@
                 android:id="@+id/button1menuawal"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="30dp"
                 android:layout_marginLeft="16dp"
+                android:layout_marginTop="30dp"
                 android:layout_marginRight="16dp"
                 android:text="SELANJUTNYA" />
         </TableRow>

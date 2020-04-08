@@ -1,9 +1,8 @@
 package com.unida.zheezhee.tamrinlughohgontory;
 
-import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
-import android.text.Html;
-import android.widget.TextView;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 public class Tentang extends AppCompatActivity {
 

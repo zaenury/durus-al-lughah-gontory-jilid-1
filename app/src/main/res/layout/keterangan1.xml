@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content">
+    android:layout_height="wrap_content"
+    tools:context="com.unida.zheezhee.tamrinlughohgontory.Keterangan1">
 
-    <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:tools="http://schemas.android.com/tools"
+    <TableLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@drawable/background2"
         android:shrinkColumns="*"
-        android:stretchColumns="*"
-        tools:context="com.unida.zheezhee.tamrinlughohgontory.Keterangan1">
+        android:stretchColumns="*">
 
         <TableRow
             android:id="@+id/tableRow1"
@@ -22,13 +22,13 @@
                 android:id="@+id/textView"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="16dp"
                 android:layout_marginLeft="16dp"
+                android:layout_marginTop="16dp"
                 android:layout_marginRight="16dp"
                 android:gravity="center"
                 android:text="الْمُذَكَّرُ"
                 android:textColor="#000"
-                android:textSize="30dp"></TextView>
+                android:textSize="30dp"/>
         </TableRow>
 
         <TableRow
@@ -39,8 +39,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="16dp"
-                android:layout_marginRight="16dp"
                 android:layout_marginTop="20dp"
+                android:layout_marginRight="16dp"
                 android:text="- Pengguna mampu menggunakan kata benda mudzakkar (laki - laki)"
                 android:textColor="#000"
                 android:textSize="16dp" />
@@ -55,8 +55,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="16dp"
-                android:layout_marginRight="16dp"
                 android:layout_marginTop="20dp"
+                android:layout_marginRight="16dp"
                 android:text="- Pengguna mampu menggunakan kata tunjuk yang sesuai untuk kata benda mudzakkar"
                 android:textColor="#000"
                 android:textSize="16dp" />
@@ -71,8 +71,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="16dp"
-                android:layout_marginRight="16dp"
                 android:layout_marginTop="20dp"
+                android:layout_marginRight="16dp"
                 android:text="- Pengguna mampu menjawab soal - soal seputar kata benda mudzakkar"
                 android:textColor="#000"
                 android:textSize="16dp" />
@@ -86,12 +86,12 @@
 
             <Button
                 android:id="@+id/button1menuawal"
-                android:layout_marginRight="16dp"
-                android:layout_marginLeft="16dp"
-                android:layout_marginBottom="16dp"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
                 android:layout_marginTop="30dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="16dp"
                 android:text="KOSAKATA" />
         </TableRow>
     </TableLayout>

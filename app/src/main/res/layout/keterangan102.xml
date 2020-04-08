@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content">
+    android:layout_height="wrap_content"
+    tools:context="com.unida.zheezhee.tamrinlughohgontory.Keterangan102">
 
-    <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:tools="http://schemas.android.com/tools"
+    <TableLayout
         android:id="@+id/tableLayout1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@drawable/background2"
         android:shrinkColumns="*"
-        android:stretchColumns="*"
-        tools:context="com.unida.zheezhee.tamrinlughohgontory.Keterangan102">
+        android:stretchColumns="*">
 
         <TableRow
             android:id="@+id/tableRow1"
@@ -23,14 +23,14 @@
                 android:id="@+id/textView"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="16dp"
                 android:layout_marginLeft="16dp"
+                android:layout_marginTop="16dp"
                 android:layout_marginRight="16dp"
                 android:gravity="center"
                 android:text="الْجَمْعُ وَ الْمُفْرَدُ"
                 android:textColor="#000"
                 android:textSize="30dp"
-                android:textStyle="bold"></TextView>
+                android:textStyle="bold" />
         </TableRow>
 
 
@@ -38,8 +38,8 @@
             android:id="@+id/image_view"
             android:layout_width="430dp"
             android:layout_height="710dp"
-            android:layout_marginTop="16dp"
             android:layout_below="@id/textView"
+            android:layout_marginTop="16dp"
             android:src="@drawable/jamakmufrod" />
 
         <TableRow
@@ -53,8 +53,8 @@
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="16dp"
-                android:layout_marginRight="16dp"
                 android:layout_marginTop="30dp"
+                android:layout_marginRight="16dp"
                 android:text="KOSAKATA" />
         </TableRow>
     </TableLayout>

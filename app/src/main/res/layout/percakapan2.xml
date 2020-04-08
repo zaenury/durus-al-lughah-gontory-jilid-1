@@ -1,21 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content">
+    android:layout_height="wrap_content"
+    tools:context="com.unida.zheezhee.tamrinlughohgontory.Percakapan2">
 
-    <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:tools="http://schemas.android.com/tools"
+    <TableLayout
         android:id="@+id/tableLayout1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-
         android:background="@drawable/background2"
         android:paddingLeft="30dp"
-        android:paddingRight="30dp"
         android:paddingTop="20dp"
+        android:paddingRight="30dp"
         android:shrinkColumns="*"
-        android:stretchColumns="*"
-        tools:context="com.unida.zheezhee.tamrinlughohgontory.Percakapan2">
+        android:stretchColumns="*">
 
         <TableRow
             android:id="@+id/tableRow1"
@@ -31,7 +30,7 @@
                 android:text="الْمُحَادَثَةُ"
                 android:textColor="#000"
                 android:textSize="30dp"
-                android:textStyle="bold"></TextView>
+                android:textStyle="bold" />
         </TableRow>
 
         <TableRow
@@ -63,7 +62,7 @@
                 android:layout_height="36dp"
                 android:text="هٰذِهِ كُرَّاسَةٌ"
                 android:textColor="#000"
-                android:textSize="25dp"/>
+                android:textSize="25dp" />
 
             <TextView
                 android:id="@+id/kata1"
@@ -72,7 +71,7 @@
                 android:gravity="right"
                 android:text="مَا هٰذِهِ؟"
                 android:textColor="#000"
-                android:textSize="25dp"/>
+                android:textSize="25dp" />
         </TableRow>
 
         <TableRow
@@ -85,14 +84,14 @@
                 android:layout_height="36dp"
                 android:text="تِلْكَ كُرَّاسَةٌ"
                 android:textColor="#000"
-                android:textSize="25dp"/>
+                android:textSize="25dp" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="36dp"
                 android:gravity="right"
                 android:textColor="#000"
-                android:textSize="25dp"/>
+                android:textSize="25dp" />
         </TableRow>
 
         <TableRow
@@ -105,7 +104,7 @@
                 android:layout_height="36dp"
                 android:text="هٰذِهِ مِمْحَاةٌ"
                 android:textColor="#000"
-                android:textSize="25dp"/>
+                android:textSize="25dp" />
 
             <TextView
                 android:id="@+id/kata5"
@@ -114,7 +113,7 @@
                 android:gravity="right"
                 android:text="مَا هٰذِهِ؟"
                 android:textColor="#000"
-                android:textSize="25dp"/>
+                android:textSize="25dp" />
         </TableRow>
 
         <TableRow
@@ -127,13 +126,13 @@
                 android:layout_height="36dp"
                 android:text="تِلْكَ مِمْحَاةٌ"
                 android:textColor="#000"
-                android:textSize="25dp"/>
+                android:textSize="25dp" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:gravity="right"
-                android:textSize="25dp"/>
+                android:textSize="25dp" />
         </TableRow>
 
         <TableRow
@@ -146,7 +145,7 @@
                 android:layout_height="36dp"
                 android:text="هٰذِهِ سَبُّوْرَةٌ"
                 android:textColor="#000"
-                android:textSize="25dp"/>
+                android:textSize="25dp" />
 
             <TextView
                 android:id="@+id/kata9"
@@ -155,7 +154,7 @@
                 android:gravity="right"
                 android:text="مَا هٰذِهِ؟"
                 android:textColor="#000"
-                android:textSize="25dp"/>
+                android:textSize="25dp" />
         </TableRow>
 
         <TableRow
@@ -168,7 +167,7 @@
                 android:layout_height="36dp"
                 android:text="تِلْكَ سَبُّوْرَةٌ"
                 android:textColor="#000"
-                android:textSize="25dp"/>
+                android:textSize="25dp" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -186,13 +185,13 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textSize="20dp"/>
+                android:textSize="20dp" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:gravity="right"
-                android:textSize="20dp"/>
+                android:textSize="20dp" />
         </TableRow>
 
         <TableRow
@@ -205,7 +204,7 @@
                 android:layout_height="36dp"
                 android:text="نَعَمْ, هٰذِهِ مِنَشَّةٌ"
                 android:textColor="#000"
-                android:textSize="25dp"/>
+                android:textSize="25dp" />
 
             <TextView
                 android:id="@+id/kata13"
@@ -214,7 +213,7 @@
                 android:gravity="right"
                 android:text="أَ هٰذِهِ مِنَشَّةٌ؟"
                 android:textColor="#000"
-                android:textSize="25dp"/>
+                android:textSize="25dp" />
         </TableRow>
 
         <TableRow
@@ -227,7 +226,7 @@
                 android:layout_height="36dp"
                 android:text="نَعَمْ, تِلْكَ سَبُّوْرَةٌ"
                 android:textColor="#000"
-                android:textSize="25dp"/>
+                android:textSize="25dp" />
 
             <TextView
                 android:id="@+id/kata15"
@@ -236,7 +235,7 @@
                 android:gravity="right"
                 android:text="أَ هٰذِهِ سَبُّوْرَةٌ؟"
                 android:textColor="#000"
-                android:textSize="25dp"/>
+                android:textSize="25dp" />
         </TableRow>
 
         <TableRow
@@ -249,7 +248,7 @@
                 android:layout_height="36dp"
                 android:text="نَعَمْ, تِلْكَ مِسْطَرَةٌ"
                 android:textColor="#000"
-                android:textSize="25dp"/>
+                android:textSize="25dp" />
 
             <TextView
                 android:id="@+id/kata17"
@@ -258,7 +257,7 @@
                 android:gravity="right"
                 android:text="أَ هٰذِهِ مِسْطَرَةٌ؟"
                 android:textColor="#000"
-                android:textSize="25dp"/>
+                android:textSize="25dp" />
         </TableRow>
 
         <TableRow
@@ -271,7 +270,7 @@
                 android:layout_height="36dp"
                 android:text="نَعَمْ, هٰذِهِ نَافِذَةٌ"
                 android:textColor="#000"
-                android:textSize="25dp"/>
+                android:textSize="25dp" />
 
             <TextView
                 android:id="@+id/kata19"
@@ -280,7 +279,7 @@
                 android:gravity="right"
                 android:text="أَ هٰذِهِ نَافِذَةٌ؟"
                 android:textColor="#000"
-                android:textSize="25dp"/>
+                android:textSize="25dp" />
         </TableRow>
 
         <TableRow
