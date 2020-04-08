@@ -2,15 +2,16 @@
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content">
-    <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    <TableLayout
         android:id="@+id/tableLayout1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@drawable/background2"
-        android:paddingBottom="@dimen/activity_vertical_margin"
         android:paddingLeft="13dp"
-        android:paddingRight="13dp"
         android:paddingTop="20dp"
+        android:paddingRight="13dp"
+        android:paddingBottom="@dimen/activity_vertical_margin"
         android:shrinkColumns="*"
         android:stretchColumns="*">
 
@@ -27,7 +28,7 @@
                 android:gravity="center"
                 android:text="الدَّرْسُ التَّاسِعُ"
                 android:textColor="#000"
-                android:textSize="30dp"></TextView>
+                android:textSize="30dp"/>
         </TableRow>
 
         <TableRow
@@ -65,15 +66,15 @@
                 android:textSize="15dp" />
 
             <Button
-                android:gravity="right"
-                android:paddingRight="20dp"
+                android:id="@+id/btnPLAY"
                 android:layout_width="wrap_content"
                 android:layout_height="38dp"
-                android:text="طَلَّاسَتَانِ"
-                android:id="@+id/btnPLAY"
                 android:layout_column="0"
                 android:background="#00ffffff"
-                android:textSize="25dp"/>
+                android:gravity="right"
+                android:paddingRight="20dp"
+                android:text="طَلَّاسَتَانِ"
+                android:textSize="25dp" />
         </TableRow>
 
         <TableRow
@@ -90,15 +91,15 @@
                 android:textSize="16dp" />
 
             <Button
-                android:gravity="right"
-                android:paddingRight="20dp"
+                android:id="@+id/btnPLAY2"
                 android:layout_width="wrap_content"
                 android:layout_height="38dp"
-                android:text="بِنْتٌ"
-                android:id="@+id/btnPLAY2"
                 android:layout_column="0"
                 android:background="#00ffffff"
-                android:textSize="25dp"/>
+                android:gravity="right"
+                android:paddingRight="20dp"
+                android:text="بِنْتٌ"
+                android:textSize="25dp" />
         </TableRow>
 
         <TableRow
@@ -115,15 +116,15 @@
                 android:textSize="16dp" />
 
             <Button
-                android:gravity="right"
-                android:paddingRight="20dp"
+                android:id="@+id/btnPLAY3"
                 android:layout_width="wrap_content"
                 android:layout_height="36dp"
-                android:text="حُجْرَةٌ"
-                android:id="@+id/btnPLAY3"
                 android:layout_column="0"
                 android:background="#00ffffff"
-                android:textSize="25dp"/>
+                android:gravity="right"
+                android:paddingRight="20dp"
+                android:text="حُجْرَةٌ"
+                android:textSize="25dp" />
         </TableRow>
 
         <TableRow
@@ -140,15 +141,15 @@
                 android:textSize="16dp" />
 
             <Button
-                android:gravity="right"
-                android:paddingRight="20dp"
+                android:id="@+id/btnPLAY4"
                 android:layout_width="wrap_content"
                 android:layout_height="36dp"
-                android:text="قَنَاةٌ"
-                android:id="@+id/btnPLAY4"
                 android:layout_column="0"
                 android:background="#00ffffff"
-                android:textSize="25dp"/>
+                android:gravity="right"
+                android:paddingRight="20dp"
+                android:text="قَنَاةٌ"
+                android:textSize="25dp" />
         </TableRow>
 
         <TableRow
@@ -165,15 +166,15 @@
                 android:textSize="16dp" />
 
             <Button
-                android:gravity="right"
-                android:paddingRight="20dp"
+                android:id="@+id/btnPLAY5"
                 android:layout_width="wrap_content"
                 android:layout_height="36dp"
-                android:text="عَرَبَةٌ"
-                android:id="@+id/btnPLAY5"
                 android:layout_column="0"
                 android:background="#00ffffff"
-                android:textSize="25dp"/>
+                android:gravity="right"
+                android:paddingRight="20dp"
+                android:text="عَرَبَةٌ"
+                android:textSize="25dp" />
 
         </TableRow>
 
@@ -191,15 +192,15 @@
                 android:textSize="16dp" />
 
             <Button
-                android:gravity="right"
-                android:paddingRight="20dp"
+                android:id="@+id/btnPLAY6"
                 android:layout_width="wrap_content"
                 android:layout_height="40dp"
-                android:text="شَارِعٌ"
-                android:id="@+id/btnPLAY6"
                 android:layout_column="0"
                 android:background="#00ffffff"
-                android:textSize="25dp"/>
+                android:gravity="right"
+                android:paddingRight="20dp"
+                android:text="شَارِعٌ"
+                android:textSize="25dp" />
 
         </TableRow>
 
@@ -217,15 +218,15 @@
                 android:textSize="16dp" />
 
             <Button
-                android:gravity="right"
-                android:paddingRight="20dp"
+                android:id="@+id/btnPLAY7"
                 android:layout_width="wrap_content"
                 android:layout_height="36dp"
-                android:text="عَجَلَةٌ"
-                android:id="@+id/btnPLAY7"
                 android:layout_column="0"
                 android:background="#00ffffff"
-                android:textSize="25dp"/>
+                android:gravity="right"
+                android:paddingRight="20dp"
+                android:text="عَجَلَةٌ"
+                android:textSize="25dp" />
         </TableRow>
 
         <TableRow
@@ -242,15 +243,15 @@
                 android:textSize="16dp" />
 
             <Button
-                android:gravity="right"
-                android:paddingRight="20dp"
+                android:id="@+id/btnPLAY8"
                 android:layout_width="wrap_content"
                 android:layout_height="36dp"
-                android:text="سَيَّارَةٌ"
-                android:id="@+id/btnPLAY8"
                 android:layout_column="0"
                 android:background="#00ffffff"
-                android:textSize="25dp"/>
+                android:gravity="right"
+                android:paddingRight="20dp"
+                android:text="سَيَّارَةٌ"
+                android:textSize="25dp" />
         </TableRow>
 
         <TableRow
@@ -267,15 +268,15 @@
                 android:textSize="16dp" />
 
             <Button
-                android:gravity="right"
-                android:paddingRight="20dp"
+                android:id="@+id/btnPLAY9"
                 android:layout_width="wrap_content"
                 android:layout_height="36dp"
-                android:text="مُسْلِمَةٌ"
-                android:id="@+id/btnPLAY9"
                 android:layout_column="0"
                 android:background="#00ffffff"
-                android:textSize="25dp"/>
+                android:gravity="right"
+                android:paddingRight="20dp"
+                android:text="مُسْلِمَةٌ"
+                android:textSize="25dp" />
         </TableRow>
 
         <TableRow
@@ -292,15 +293,15 @@
                 android:textSize="16dp" />
 
             <Button
-                android:gravity="right"
-                android:paddingRight="20dp"
+                android:id="@+id/btnPLAY10"
                 android:layout_width="wrap_content"
                 android:layout_height="36dp"
-                android:text="مُسْلِمَاتٌ"
-                android:id="@+id/btnPLAY10"
                 android:layout_column="0"
                 android:background="#00ffffff"
-                android:textSize="25dp"/>
+                android:gravity="right"
+                android:paddingRight="20dp"
+                android:text="مُسْلِمَاتٌ"
+                android:textSize="25dp" />
         </TableRow>
 
         <TableRow

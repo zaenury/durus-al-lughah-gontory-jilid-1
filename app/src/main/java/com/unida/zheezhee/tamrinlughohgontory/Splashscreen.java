@@ -1,10 +1,11 @@
 package com.unida.zheezhee.tamrinlughohgontory;
 
 import android.content.Intent;
-import android.os.Handler;
-import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
+import android.os.Handler;
 import android.view.WindowManager;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 public class Splashscreen extends AppCompatActivity {
     private static int splashInterval = 2000;

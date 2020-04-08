@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content">
+    android:layout_height="wrap_content"
+    tools:context="com.unida.zheezhee.tamrinlughohgontory.Kalimat2">
 
-    <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:tools="http://schemas.android.com/tools"
+    <TableLayout
         android:id="@+id/tableLayout1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@drawable/background2"
         android:paddingLeft="30dp"
-        android:paddingRight="30dp"
         android:paddingTop="20dp"
+        android:paddingRight="30dp"
         android:shrinkColumns="*"
-        android:stretchColumns="*"
-        tools:context="com.unida.zheezhee.tamrinlughohgontory.Kalimat2">
+        android:stretchColumns="*">
 
         <TableRow
             android:id="@+id/tableRow1"
@@ -30,7 +30,7 @@
                 android:text="الأَمْثِلَةُ"
                 android:textColor="#000"
                 android:textSize="30dp"
-                android:textStyle="bold"></TextView>
+                android:textStyle="bold"/>
         </TableRow>
 
         <TableRow
@@ -60,14 +60,14 @@
                 android:id="@id/kata2"
                 android:layout_width="wrap_content"
                 android:layout_height="36dp"
-                android:textSize="25dp"/>
+                android:textSize="25dp" />
 
             <TextView
                 android:id="@id/kata1"
                 android:layout_width="wrap_content"
                 android:layout_height="36dp"
                 android:gravity="right"
-                android:textSize="25dp"/>
+                android:textSize="25dp" />
         </TableRow>
 
         <TableRow
@@ -78,14 +78,14 @@
                 android:id="@+id/kata4"
                 android:layout_width="wrap_content"
                 android:layout_height="36dp"
-                android:textSize="25dp"/>
+                android:textSize="25dp" />
 
             <TextView
                 android:id="@+id/kata3"
                 android:layout_width="wrap_content"
                 android:layout_height="36dp"
                 android:gravity="right"
-                android:textSize="25dp"/>
+                android:textSize="25dp" />
         </TableRow>
 
         <TableRow
@@ -96,14 +96,14 @@
                 android:id="@+id/kata6"
                 android:layout_width="wrap_content"
                 android:layout_height="36dp"
-                android:textSize="25dp"/>
+                android:textSize="25dp" />
 
             <TextView
                 android:id="@+id/kata5"
                 android:layout_width="wrap_content"
                 android:layout_height="36dp"
                 android:gravity="right"
-                android:textSize="25dp"/>
+                android:textSize="25dp" />
         </TableRow>
 
         <TableRow
@@ -114,14 +114,14 @@
                 android:id="@id/kata8"
                 android:layout_width="wrap_content"
                 android:layout_height="36dp"
-                android:textSize="25dp"/>
+                android:textSize="25dp" />
 
             <TextView
                 android:id="@id/kata7"
                 android:layout_width="wrap_content"
                 android:layout_height="36dp"
                 android:gravity="right"
-                android:textSize="25dp"/>
+                android:textSize="25dp" />
         </TableRow>
 
         <TableRow
@@ -132,14 +132,14 @@
                 android:layout_width="wrap_content"
                 android:layout_height="36dp"
                 android:textColor="#000"
-                android:textSize="25dp"/>
+                android:textSize="25dp" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="36dp"
                 android:gravity="right"
                 android:textColor="#000"
-                android:textSize="25dp"/>
+                android:textSize="25dp" />
         </TableRow>
 
         <TableRow
@@ -150,14 +150,14 @@
                 android:id="@id/kata10"
                 android:layout_width="wrap_content"
                 android:layout_height="36dp"
-                android:textSize="25dp"/>
+                android:textSize="25dp" />
 
             <TextView
                 android:id="@id/kata9"
                 android:layout_width="wrap_content"
                 android:layout_height="36dp"
                 android:gravity="right"
-                android:textSize="25dp"/>
+                android:textSize="25dp" />
         </TableRow>
 
         <TableRow
@@ -168,14 +168,14 @@
                 android:id="@id/kata12"
                 android:layout_width="wrap_content"
                 android:layout_height="36dp"
-                android:textSize="25dp"/>
+                android:textSize="25dp" />
 
             <TextView
                 android:id="@id/kata11"
                 android:layout_width="wrap_content"
                 android:layout_height="36dp"
                 android:gravity="right"
-                android:textSize="25dp"/>
+                android:textSize="25dp" />
         </TableRow>
 
         <TableRow
@@ -186,14 +186,14 @@
                 android:id="@id/kata14"
                 android:layout_width="wrap_content"
                 android:layout_height="36dp"
-                android:textSize="25dp"/>
+                android:textSize="25dp" />
 
             <TextView
                 android:id="@id/kata13"
                 android:layout_width="wrap_content"
                 android:layout_height="36dp"
                 android:gravity="right"
-                android:textSize="25dp"/>
+                android:textSize="25dp" />
         </TableRow>
 
         <TableRow
@@ -204,14 +204,14 @@
                 android:id="@id/kata16"
                 android:layout_width="wrap_content"
                 android:layout_height="36dp"
-                android:textSize="25dp"/>
+                android:textSize="25dp" />
 
             <TextView
                 android:id="@id/kata15"
                 android:layout_width="wrap_content"
                 android:layout_height="36dp"
                 android:gravity="right"
-                android:textSize="25dp"/>
+                android:textSize="25dp" />
         </TableRow>
 
         <TableRow

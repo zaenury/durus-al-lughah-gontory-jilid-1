@@ -3,15 +3,10 @@ package com.unida.zheezhee.tamrinlughohgontory;
 /**
  * Created by zhee-zhee on 07/12/2016.
  */
-import android.graphics.Typeface;
-import androidx.appcompat.app.AppCompatActivity;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Calendar;
-import java.util.List;
 
 import android.app.AlertDialog;
 import android.content.DialogInterface;
+import android.graphics.Typeface;
 import android.os.Bundle;
 import android.os.CountDownTimer;
 import android.util.Log;
@@ -25,6 +20,13 @@ import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import androidx.appcompat.app.AppCompatActivity;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Calendar;
+import java.util.List;
 public class Latihan extends AppCompatActivity {
 
     private Database db;

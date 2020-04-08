@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/TAMRINLUGHOHGONTORY.iml" filepath="$PROJECT_DIR$/TAMRINLUGHOHGONTORY.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/durus-al-lughah-gontory-jilid-1-TAMRINLUGHOHGONTORY.iml" filepath="$PROJECT_DIR$/durus-al-lughah-gontory-jilid-1-TAMRINLUGHOHGONTORY.iml" group="TAMRINLUGHOHGONTORY" />
-      <module fileurl="file://$PROJECT_DIR$/app/durus-al-lughah-gontory-jilid-1-app.iml" filepath="$PROJECT_DIR$/app/durus-al-lughah-gontory-jilid-1-app.iml" group="TAMRINLUGHOHGONTORY/app" />
+      <module fileurl="file://$PROJECT_DIR$/TAMRINLUGHOHGONTORY.iml" filepath="$PROJECT_DIR$/TAMRINLUGHOHGONTORY.iml" group="TAMRINLUGHOHGONTORY" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="TAMRINLUGHOHGONTORY/app" />
     </modules>
   </component>
 </project>

@@ -2,7 +2,7 @@
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content">
-<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<TableLayout
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/tableLayout1"
     android:layout_width="match_parent"
@@ -29,7 +29,7 @@
             android:gravity="center"
             android:text="الدَّرْسُ الرَّابِعُ"
             android:textColor="#000"
-            android:textSize="30dp"></TextView>
+            android:textSize="30dp"/>
     </TableRow>
 
     <TableRow

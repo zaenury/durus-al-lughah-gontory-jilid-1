@@ -3,14 +3,15 @@ package com.unida.zheezhee.tamrinlughohgontory;
 /**
  * Created by zhee-zhee on 07/12/2016.
  */
-import java.util.ArrayList;
-import java.util.List;
 
 import android.content.ContentValues;
 import android.content.Context;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class Database extends SQLiteOpenHelper {
     final static String DB_NAME = "db_kuis";
